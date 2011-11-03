@@ -1,3 +1,9 @@
+# revision 18791
+# category Package
+# catalog-ctan /macros/latex/contrib/concprog
+# catalog-date 2007-01-01 11:39:06 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-concprog
 Version:	20070101
 Release:	1
@@ -36,6 +42,7 @@ A class which provides the necessary macros to prepare a
 %files
 %{_texmfdistdir}/tex/latex/concprog/ConcProg.cls
 %doc %{_texmfdistdir}/doc/latex/concprog/program.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -46,3 +53,5 @@ A class which provides the necessary macros to prepare a
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
