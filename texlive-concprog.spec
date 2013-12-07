@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-concprog
 Version:	20070101
-Release:	2
+Release:	3
 Summary:	Concert programmes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/concprog
