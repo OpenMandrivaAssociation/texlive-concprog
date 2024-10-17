@@ -3,7 +3,7 @@ Version:	18791
 Release:	2
 Summary:	Concert programmes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/concprog
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/concprog
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/concprog.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/concprog.doc.r%{version}.tar.xz
